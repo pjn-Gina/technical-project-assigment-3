@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    background-color: rgb(229, 184, 238);
+}
+
+.button-submit{
+    background-color: rgb(131, 10, 131);
+    color: rgb(255, 251, 251);
+    border: 5px;
+    border-radius: 6px;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.button-submit:hover{
+    color :rgb(255, 255, 255);
+    transition: 0.4s;
+    background-color:#ee0384;
+}
+
+#content{
+    /* display:flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-width: 2px; 
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.card{
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card-body{
+    background-color: rgb(229, 184, 238);
+    color:  rgb(131, 10, 131) !important;
+    border: 5px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#footer{
+    background-color:  rgb(229, 184, 238);
+  }
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
